@@ -1,0 +1,423 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Sora:wght@500;600&display=swap');
+body {
+
+  font-family: 'Sora', sans-serif;
+  background-color: black;
+}
+
+:root {
+
+  --background-color: white;
+}
+.nav-link {
+    color: white;
+    font-size: 1rem;
+}
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar-nav {
+  text-align: center;
+  justify-content: center;
+}
+.container-fluid {
+    text-align: center;
+    justify-content: center;
+    color: white;
+    margin-top: 150px;
+    font-size: 3.5rem;
+}
+ .data-head {
+    font-size: 2rem;
+    font-weight: bold;
+    color: white;
+
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+  
+
+}
+.look {
+    color: white;
+
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-iteration-count: 1;
+  
+}
+
+
+@keyframes slide-in {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    50% {
+      opacity: 1;
+    }
+    100% {
+      transform: translateX(0%);
+      opacity: 0;
+    }
+  }
+
+  .image {
+    padding: 30px;
+    text-align: center;
+    justify-content: center;
+  }
+
+
+#header{
+    height: 700px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('../image/city.jpg'); 
+    /* background-color: #0A4D68; */
+    background-size: cover;
+    background-position: center;
+
+}
+.box1{
+  padding: 30px;
+  font-family:Montserrat ;
+  font-weight: 800;
+  animation: slide-in 1s ease-in-out forwards;
+  text-align: center;
+  justify-content: center;
+}
+@keyframes slide-in {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+hr {
+  height: 4px;
+  width: 80%;
+  background-color: green;
+  border: none;
+  margin: auto;
+  margin-top: 30px;
+}
+.box1 a {
+  text-decoration: none;
+  font-size: 20px;
+  color: green;
+}
+.box1 a:hover{
+  text-decoration: underline;
+}
+.updates {
+  height: auto;
+  max-width: 100%;
+  margin-top: 30px;
+  padding: 10px auto 10px auto;
+  text-align: center;
+  justify-content: center;
+  margin: 10px;
+
+}
+h5 {
+  margin-bottom: 30px;
+  font-family: 'sora';
+  font-weight: bold;
+}
+h3{
+  color: var(--background-color);
+}
+h4 {
+  margin: 6px;
+  text-align: left;
+  font-size: 20px;
+  color: var(--background-color);
+}
+h6 {
+  margin: 6px;
+  text-align: left;
+  font-size: 10px;
+  color: var(--background-color);
+}
+.updates img {
+  height: 350px;
+  width: 350px;
+}
+
+#body {
+position: relative;
+top: 700px;
+margin-top: 30px;
+}
+.register:hover {
+
+  background: #183A1D;
+  color: #ffff;
+  border-radius: 20px;
+}
+.carousel-item {
+  height: 500px;
+}
+.carousel {
+text-align: center;
+}
+
+#testimonials {
+  padding-top: 7%;
+  text-align: center;
+}
+.img-carosel {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
+.carosel-text {
+  font-family:'Sora' ;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+#video_data{
+
+  height: 500px;
+
+  background-color: #ECF2FF;
+}
+iframe {
+  width: 500px;
+  max-width: 500px;
+  height: 300px;
+}
+iframe::-webkit-media-controls {
+  /* Styles for WebKit-based browsers */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+iframe::-moz-media-controls-panel {
+  /* Styles for Firefox */
+  background-color: rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+iframe::-webkit-media-slider-thumb {
+  /* Styles for WebKit-based browsers */
+  background-color: #ff0000;
+}
+
+iframe::-moz-range-thumb {
+  /* Styles for Firefox */
+  background-color: #ff0000;
+}
+.player {
+
+  text-align: center;
+  margin-top: 40px;
+}
+.down {
+  color: green;
+  font-size: 1.5rem;
+}
+
+.float-button {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 9999;
+}
+
+.btns {
+  display: inline-block;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: green;
+  color: #ffffff;
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.btns:hover {
+  transform: scale(1.1);
+}
+.ico {
+  font-size: 2.5rem;
+}
+
+#footer {
+  padding: 7% 15%;
+  text-align: left;
+  background-color: black;
+}
+.btn-footer{
+
+
+  color: white;
+
+}
+
+.social-icon {
+  margin: 20px 10px;
+ 
+}
+.social{
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  font-size: 10px;
+}
+.nav-footer {
+  display: flex;
+}
+.nav-footer li a{
+  list-style: none;
+  text-decoration: none;
+  color: green;
+ 
+}
+.nav-footer li a:hover {
+  text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+/* Mobile Styles */
+@media (max-width: 991px) {
+    
+    .container-fluid {
+        text-align: center;
+        justify-content: center;
+        color: white;
+        margin-top: 150px;
+        font-size: 20px;
+        font-weight: bold;
+       
+       
+    }
+    .nav-link {
+      color: white;
+      font-size: 1rem;
+      width: 150px;
+      margin: auto;
+  }
+
+  #body {
+    position: relative;
+    top: 900px;
+    margin-top: 30px;
+    }
+
+
+
+  #header{
+    height: 900px;
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    /* background-image: url('../image/data.gif');  */
+    background-color: #0A4D68;
+    background-size: cover;
+    background-position: center;
+
+}
+
+h4 {
+  margin: 6px;
+  text-align: left;
+  font-size: 20px;
+  color: var(--background-color);
+  text-align: center;
+}
+h6 {
+  margin: 6px;
+  text-align: left;
+  font-size: 10px;
+  color: var(--background-color);
+  text-align: center;
+}
+
+  }
+
+ ul li {
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0;
+    animation-name: slide-in;
+    animation-duration: 1s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+  }
+  .logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .background:hover {
+
+   background-color: white;
+   border-radius: 20px;
+   color: green;
+
+  }
+ 
+
+  
+  
+  @keyframes slide-in {
+    0% {
+      transform: translateY(-50px);
+      opacity: 0;
+    }
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+
+
+
+  
+  .database {
+    margin-top: 80px;
+    width: 200px;
+    height: 200px;
+    animation: slideUpDown 2s ease-in-out infinite;
+  }
+  
+  @keyframes slideUpDown {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-50px);
+    }
+    100% {
+      transform: translateY(0);
+    }
+  }
+  
